@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./projectstechnologys.module.css";
+import styles from "./styles/projectstechnologys.module.css";
 import { SiJavascript, SiHtml5, SiReact, SiCss3, SiCsharp } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 import { BsFiletypeJsx } from "react-icons/bs";

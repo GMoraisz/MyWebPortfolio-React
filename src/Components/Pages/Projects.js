@@ -4,7 +4,7 @@ import todoList from './images/toDoList.png';
 import Calculator from './images/Calculator.jpg';
 import Chronometer from './images/Chronometer.jpg';
 import VotingPage from './images/VotingPage.png';
-import styles from './projects.module.css';
+import styles from './styles/projects.module.css';
 import { FaGithub } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';

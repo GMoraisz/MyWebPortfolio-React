@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import styles from './contact.module.css';
+import styles from './styles/contact.module.css';
 import { FcRight } from "react-icons/fc";
 
 export const Contact = () => {

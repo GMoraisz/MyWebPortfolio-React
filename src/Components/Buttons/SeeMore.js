@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './seemore.module.css';
+import styles from './styles/seemore.module.css';
 import { MdOutlineExpandMore, MdOutlineExpandLess } from 'react-icons/md';
 
 const SeeMore = ({ onClick, showMore }) => {
