@@ -1,0 +1,56 @@
+@keyframes colorChange {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    25% {
+        color: rgb(255, 85, 0);
+    }
+
+    50% {
+        color: rgb(255, 242, 0);
+    }
+
+    75% {
+        color: rgb(0, 255, 76);
+    }
+
+    100% {
+        color: var(--cor-terciaria);
+    }
+}
+
+.itensArea {
+    padding: 3rem;
+    margin-right: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.iconsArea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    font-size: 5rem;
+    animation: colorChange 15s infinite;
+    text-align: center;
+  }
+  
+  
+
+  @media (max-width: 900px) {
+    .iconsArea {
+      grid-template-columns: repeat(8, 1fr);
+      margin-left: 0;
+      font-size: 2rem;
+      padding: 1rem;
+
+    }
+    .itensArea {
+       padding: 0;
+        
+    }
+  }

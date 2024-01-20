@@ -1,0 +1,19 @@
+.seeMoreButton {
+
+    background-color: #115eaf;
+    color: var(--cor-quintenaria);
+    padding: 0 5px;
+    border: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seeMoreButton:hover {
+    background-color: var(--cor-primaria);
+  }
+
+  .seeMoreButton svg {
+
+    font-size: 1.8rem;
+    
+  }

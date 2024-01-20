@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Oswald&family=Poppins:wght@200&family=Roboto&display=swap');
+
+/* * {
+  outline: 1px solid red; 
+  box-sizing: border-box;
+} */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+:root {
+  --fonte-primaria: 'Roboto';
+  --fonte-secundaria: 'Montserrat:wght@200;300';
+  --fonte-terciaria: 'Poppins';
+  --cor-primaria: #343a8f;
+  --cor-secundaria: #272b6c;
+  --cor-terciaria: #e600ff80;
+  --cor-quartenaria: #0d0e27;
+  --cor-quintenaria: #ffffff;
+}
+
+h1 {
+  color: var(--cor-quintenaria) !important;
+  font-size: 2.5rem;
+  font-family: var(--fonte-primaria);
+  text-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+
+  color: var(--cor-quintenaria) !important;
+  font-family: var(--fonte-primaria);
+  text-shadow: 1px 1px 1px #000;
+}
+
+p {
+  text-shadow: 1px 1px 1px #000;
+  font-family: 'Gill Sans', sans-serif;
+
+
+}
+
+strong {
+  font-family: var(--fonte-primaria);
+  color: var(--cor-terciaria);
+  text-shadow: 1px 1px 1px #000;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-areas:
+    'center center'
+    'right right'
+    'footer';
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto auto;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+.right {
+  gap: 1.25rem;
+  padding: 1rem;
+  display: flex;
+  margin-right: 2rem;
+  background-color: rgba(0, 0, 255, 0.03);
+  border-radius: 2%;
+}
+
+.right a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: var(--cor-quintenaria);
+}
+
+.right a:hover {
+  color: var(--cor-primaria);
+}
+
+.right a span {
+  margin-right: 5px;
+}
+
+.right svg {
+  font-size: 1.6rem;
+  color: var(--cor-quintenaria);
+}
+
+.right a:hover svg {
+  color: var(--cor-primaria);
+}
+
+.footer {
+  font-family: var(--fonte-terciaria);
+  text-align: center;
+  background-color: var(--cor-quartenaria);
+  color: var(--cor-quintenaria);
+  padding: 0;
+  position: relative;
+  bottom: 0;
+
+}
+
+@media (max-width: 768px) {
+  .right a span {
+    display: none;
+  }
+  .right svg {
+    font-size: 1.2rem;
+
+  }
+  .gridContainer {
+    grid-template-areas:
+      'center'
+      'right'
+      'footer';
+    grid-template-columns: 1fr;
+    margin-top: 2.5rem;
+    padding: 0;
+  }
+
+  .right {
+    margin: 0;
+    align-items: flex-end;
+    text-align: right;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0;
+    background-color: rgba(52, 152, 219, 0.1);
+    border-radius: 5%;
+  }
+  .footer {
+
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+  }
+}

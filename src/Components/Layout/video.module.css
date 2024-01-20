@@ -1,0 +1,52 @@
+
+@keyframes colorChange {
+  0% {
+      color: rgb(255, 0, 0);
+  }
+
+  25% {
+      color: rgb(255, 85, 0);
+  }
+
+  50% {
+      color: rgb(255, 242, 0);
+  }
+
+  75% {
+      color: rgb(0, 255, 76);
+  }
+
+  100% {
+      color: var(--cor-terciaria);
+  }
+}
+
+.videoContainer {
+    position: absolute;
+    margin-top: 5rem;
+    right: 2.5rem;
+    z-index: 1; 
+ 
+    
+  }
+  
+  .videoContainer video {
+    pointer-events: none; 
+  }
+
+  .videoChu {
+    border-radius: 50px; 
+    border: 4px solid;
+    animation: colorChange 5s infinite;
+  }
+
+
+  @media (max-width: 900px) {
+    .videoContainer {
+        display: none;
+    }
+
+  
+}
+
+

@@ -1,0 +1,18 @@
+.imageContainer {
+   margin-top: 2.5rem;
+    
+}
+
+.imageContainer img {
+    border: solid var(--cor-terciaria);
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+
+@media (max-width: 900px) {
+    .imageContainer {
+        margin-top: 2rem; 
+    }
+}
