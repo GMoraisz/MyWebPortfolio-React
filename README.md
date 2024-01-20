@@ -1,4 +1,4 @@
-# MyWebPortfolio 📋
+# MyWebPortfolio 🌐
 
 ## 🚀 Tecnologias
 Esse repositório contém essas tais tecnologias :
