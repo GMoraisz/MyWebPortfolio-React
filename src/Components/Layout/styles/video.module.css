@@ -49,4 +49,26 @@
   
 }
 
+@media (max-width: 1024px) {
+  .videoContainer {
+      display: none;
+  }
 
+
+}
+@media (max-width: 768px) {
+  .videoContainer {
+      display: none;
+  }
+
+
+}
+
+
+@media (max-width: 600px) {
+  .videoContainer {
+      display: none;
+  }
+
+
+}

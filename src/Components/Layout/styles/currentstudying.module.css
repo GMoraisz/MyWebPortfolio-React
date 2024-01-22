@@ -1,73 +1,77 @@
 @keyframes colorChange {
     0% {
-        color: rgb(255, 0, 0);
+      color: rgb(255, 0, 0);
     }
-
+  
     25% {
-        color: rgb(255, 85, 0);
+      color: rgb(255, 85, 0);
     }
-
+  
     50% {
-        color: rgb(255, 242, 0);
+      color: rgb(255, 242, 0);
     }
-
+  
     75% {
-        color: rgb(0, 255, 76);
+      color: rgb(0, 255, 76);
     }
-
+  
     100% {
-        color: var(--cor-terciaria);
+      color: var(--cor-terciaria);
     }
-}
-
-.container {
+  }
+  
+  .icon {
+    text-align: center;
+    animation: colorChange 2.5s infinite;
+  }
+  
+  .itensArea {
     padding: 3rem;
-    margin-right: 1rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border-radius: 15px;
-    text-align: center;
-}
-
-
-.iconsArea {
-    display: grid;
-    margin: 0;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    justify-content: center;
-    font-size: 5rem;
-    animation: colorChange 15s infinite;
-    text-align: center;
   }
   
+  .iconsArea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    justify-content: center;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
   
 
   @media (max-width: 900px) {
     .iconsArea {
-      grid-template-columns: repeat(8, 1fr);
-      font-size: 2rem;
-      
-
+      grid-template-columns: repeat(4, 1fr);
     }
-
-    .container {
-        margin-top: 2rem;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 0;
-        padding: 1.5rem;
-    }
-   
+    .itensArea {
+        padding: 0.5rem;
+    
+      }
   }
-
-
-
-  @media (max-width: 1200px) {
-   
-    .container {
-        
-        margin-top: 2rem;
-        padding: 1rem;
+  
+  @media (max-width: 768px) {
+    .iconsArea {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .itensArea {
+     padding: 0.5rem;
     }
   }
+  
+  @media (max-width: 480px) {
+    .iconsArea {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .itensArea {
+        padding: 0.5rem;
+    }
+  }
+  

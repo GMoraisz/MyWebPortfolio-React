@@ -24,11 +24,14 @@ body {
 }
 
 .title {
-  margin: 2rem;
+  margin-top: 4rem;
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
   text-align: left;
 }
 
 .title svg {
+
   animation: colorChange 2.5s infinite;
 }
 
@@ -72,8 +75,11 @@ body {
   gap: 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
+  .title {
+    margin-top: 5rem;
+  }
   .content p {
     font-size: 1.8rem;
   }

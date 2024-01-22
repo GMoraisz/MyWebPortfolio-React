@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import ChangeLanguage from '../Buttons/ChangeLanguage';
 import resumepdfPT from './images/Carta de Apresentação-1.png';
@@ -19,36 +20,32 @@ const Resume = () => {
       setResumepdf(resumepdfPT);
       setCoverLetter(coverLetterPT);
     } else if (language === 'english') {
-       setResumepdf(resumepdfEN);
+      setResumepdf(resumepdfEN);
       setCoverLetter(coverLetterEN);
     }
   };
 
   return (
     <div className={styles.resumeContainer}>
+
       <div className={styles.embedContainer}>
-        <img src={resumepdf} type="image/png" width="100%" height="550px" alt="Resume" />
+        <img src={resumepdf} type="image/png" alt="Resume" />
       </div>
 
       <div className={styles.embedContainer}>
-        <img src={coverLetter} type="image/png" width="100%" height="550px" alt="Cover Letter" />
+        <img src={coverLetter} type="image/png" alt="Cover Letter" />
       </div>
 
       <div className={styles.rightButtonContainer}>
-    
-          <div>
-            <ChangeLanguage onChangeLanguage={handleChangeLanguage} />
-          </div>
-          <div>
-            <DownloadPDF />
-          </div>
+        <div>
+          <ChangeLanguage onChangeLanguage={handleChangeLanguage} />
+        </div>
+        <div>
+          <DownloadPDF />
         </div>
       </div>
-
-   
-
-
-  );
-};
+    </div>
+  )
+}
 
 export default Resume;

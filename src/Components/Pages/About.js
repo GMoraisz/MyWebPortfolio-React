@@ -37,10 +37,11 @@ const About = () => {
           </p>
           <SeeMore onClick={handleToggleText} showMore={showMore} />
         </div>
-        <div className={styles.Studying}>
+       
+      </div>
+      <div className={styles.Studying}>
            <CurrentStudying/>
         </div>
-      </div>
 
     </div>
 

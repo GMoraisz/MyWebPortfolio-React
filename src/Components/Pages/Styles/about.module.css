@@ -1,13 +1,12 @@
 .profileArea {
-
-    padding: 6rem;
-    margin-left: 1rem;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-
+    padding: 3.5rem;
+    margin-left: 1rem;
 }
 
 .card {
+    width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border-radius: 15px;
@@ -31,7 +30,6 @@
     border-radius: 50%;
     border: 5.8px solid #000;
     margin-top: -100px;
-
 }
 
 .card:hover .imgPerf img {
@@ -42,7 +40,6 @@
 .mainText {
     padding: 30px;
     text-align: center;
-
 }
 
 .mainText h2 {
@@ -62,57 +59,11 @@
 
 .Studying {
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    position: absolute;
-    top: 6rem;
-    right: 2rem;
+    position: relative; 
+    margin-right: 1rem;
+    padding: 2rem; 
+    border-radius: 8px;
+  
 }
 
-@media (max-width: 1200px) {
-    .Studying {
-        top: 5rem; 
-        right: 0;
-        left: 0;  
-    }
-    .profileArea {
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        margin-left: 0;  
-        margin-right: 0;
-    }
-
-}
-
-@media (max-width: 900px) {
-    .Studying {
-
-        margin-top: 5rem; 
-        margin-right: 0;
-        margin-left: 0;  
-    }
-    .profileArea {
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        margin-left: 0;  
-        margin-right: 0;
-        padding: 0.5em;
-    }
-
-}
-
-@media (max-width: 600px) {
-    .Studying {
-        position: static; 
-        margin-top: 1.5rem;
-        text-align: center; 
-        right: auto; 
-    }
-
-    .profileArea {
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        margin-left: 0;  
-        margin-right: 0;
-    }
-}
