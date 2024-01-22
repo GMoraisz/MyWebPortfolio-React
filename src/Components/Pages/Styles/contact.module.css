@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 .formContact {
     max-width: 600px;

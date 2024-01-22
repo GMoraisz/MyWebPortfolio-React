@@ -23,11 +23,11 @@ export const Contact = () => {
             <h2 className={styles.formTitle}>
                 Entre em Contato <PiArrowSquareDownFill/> </h2>
             <form ref={form} onSubmit={sendEmail}>
-                <label>Nome </label>
+                <label>Nome: </label>
                 <input type="text" name="from_name" />
-                <label>E-mail  </label>
+                <label>E-mail:  </label>
                 <input type="email" name="from_email" />
-                <label>Mensagem </label>
+                <label>Mensagem: </label>
                 <textarea name="message" />
                 <input type="submit" value="Enviar" />
             </form>

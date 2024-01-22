@@ -1,36 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
 
 .resumeContainer {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 3.5rem;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  margin-left: 5rem;
 }
 
-
+.embedContainer {
+  width: 48%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
 
 .embedContainer img {
-  margin-top: 2rem;
-  width: 100%;
-  max-width: 450px; 
-  height: auto;
-  border: 1px solid var(--cor-terciaria); 
-  margin-right: 20px; 
+  width: 90%;
+  height: 625px;
+  border: 1px solid var(--cor-terciaria);
+}
+
+.imageWithButtons {
+  position: relative;
 }
 
 .rightButtonContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  
+  margin-top: 1px; 
+}
+
+
+.rightButtonContainer button {
+  margin-top: 10px;
+  margin-bottom: 5px; 
 }
 
 @media (max-width: 767px) {
-  .embedContainer img {
-    margin-top: 0;
+  .rightButtonContainer {
+    margin-top: 10px;
+    text-align: center;
   }
 
-  .rightButtonContainer {
-    margin-top: 1rem; 
+  .embedContainer {
+    margin-top: 1.2rem;
+    width: 100%;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .embedContainer {
+    width: 100%;
+  }
+}
+

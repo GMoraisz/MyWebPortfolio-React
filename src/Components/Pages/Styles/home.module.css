@@ -1,3 +1,8 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes colorChange {
   0% {
     color: rgb(255, 0, 0);

@@ -5,7 +5,6 @@ import imgPerf from './images/euPerfil.jpeg';
 import SeeMore from '../Buttons/SeeMore';
 import CurrentStudying from '../Layout/CurrentStudying';
 
-
 const About = () => {
   const [showMore, setShowMore] = useState(false);
 
@@ -37,16 +36,11 @@ const About = () => {
           </p>
           <SeeMore onClick={handleToggleText} showMore={showMore} />
         </div>
-       
       </div>
-      <div className={styles.Studying}>
-           <CurrentStudying/>
-        </div>
-
+      <div className={styles.StudyingWrapper}>
+        <CurrentStudying />
+      </div>
     </div>
-
-
-
   );
 }
 

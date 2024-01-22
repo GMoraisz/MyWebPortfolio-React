@@ -8,6 +8,7 @@ import coverLetterEN from './images/Cover Letter-1.png';
 import styles from './styles/resume.module.css';
 import DownloadPDF from '../Buttons/DownloadPDF';
 
+// Alteração no componente React
 const Resume = () => {
   const [currentLanguage, setCurrentLanguage] = useState('portuguese');
   const [resumepdf, setResumepdf] = useState(currentLanguage === 'portuguese' ? resumepdfPT : resumepdfEN);
@@ -27,25 +28,25 @@ const Resume = () => {
 
   return (
     <div className={styles.resumeContainer}>
-
       <div className={styles.embedContainer}>
-        <img src={resumepdf} type="image/png" alt="Resume" />
+        <div className={styles.imageWithButtons}>
+          <img src={resumepdf} type="image/png" alt="Resume" />
+
+          <div className={styles.rightButtonContainer}>
+            <div>
+              <ChangeLanguage onChangeLanguage={handleChangeLanguage} />
+              <DownloadPDF />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className={styles.embedContainer}>
         <img src={coverLetter} type="image/png" alt="Cover Letter" />
       </div>
-
-      <div className={styles.rightButtonContainer}>
-        <div>
-          <ChangeLanguage onChangeLanguage={handleChangeLanguage} />
-        </div>
-        <div>
-          <DownloadPDF />
-        </div>
-      </div>
     </div>
   )
 }
+
 
 export default Resume;

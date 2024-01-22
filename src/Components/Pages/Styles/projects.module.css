@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -21,6 +25,7 @@
 
 .carouselContainer {
   max-width: 100%;
+ 
 }
 
 .carousel {
