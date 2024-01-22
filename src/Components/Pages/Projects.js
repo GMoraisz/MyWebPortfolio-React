@@ -9,6 +9,7 @@ import todoList from './images/toDoList.png';
 import Calculator from './images/Calculator.jpg';
 import Chronometer from './images/Chronometer.jpg';
 import VotingPage from './images/VotingPage.png';
+import Portfol from './images/Portfol.png'
 
 const MyProjects = () => {
   const projects = [
@@ -16,7 +17,7 @@ const MyProjects = () => {
     { image: Calculator, title: 'Calculadora', githubLink: 'https://github.com/GMoraisz/Calculadora' },
     { image: Chronometer, title: 'Cronômetro Inteligente', githubLink: 'https://github.com/GMoraisz/Cronometro' },
     { image: VotingPage, title: 'VotingPage Futebol', githubLink: 'https://github.com/GMoraisz/SoccerVotingPage' },
-    { image: VotingPage, title: 'Portfólio Pessoal', githubLink: 'link-para-o-repositorio-do-portfolio' },
+    { image: Portfol, title: 'Portfólio Pessoal', githubLink: 'https://github.com/GMoraisz/MyWebPortfolio-React' },
   ];
 
   return (
