@@ -4,7 +4,7 @@ import resumepdfPT from './images/Carta de Apresentação-1.png';
 import coverLetterPT from './images/Meu Currículo-1.png';
 import resumepdfEN from './images/myResume-1.png';
 import coverLetterEN from './images/Cover Letter-1.png';
-import styles from './styles/resume.module.css';
+import styles from './styles/Resume.module.css';
 import DownloadPDF from '../Buttons/DownloadPDF';
 
 const Resume = () => {

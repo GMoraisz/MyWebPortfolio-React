@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/currentstudying.module.css";
+import styles from "./styles/CurrentStudying.module.css";
 import { SiJavascript, SiHtml5, SiReact, SiCss3, SiAngular, SiTypescript, SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaInstagram, FaLinkedin, FaDev } from 'react-icons/fa';
-import styles from './styles/home.module.css';
+import styles from './styles/Home.module.css';
 import Video from '../Layout/Video';
 import HomeImage from '../Layout/HomeImage';
 

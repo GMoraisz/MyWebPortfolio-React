@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/projectstechnologys.module.css";
+import styles from "./styles/ProjectsTechnologys.module.css";
 import {
   SiJavascript,
   SiHtml5,

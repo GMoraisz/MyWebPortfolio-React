@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './styles/about.module.css';
+import styles from './styles/About.module.css';
 import imgBack from './images/Pikachuwalp.png';
 import imgPerf from './images/euPerfil.jpeg';
 import SeeMore from '../Buttons/SeeMore';

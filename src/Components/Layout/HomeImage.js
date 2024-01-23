@@ -1,6 +1,6 @@
 import React from 'react';
 import PikachuImage from './images/PikachuWall.jpg';
-import styles from './styles/homeimage.module.css';
+import styles from './styles/HomeImage.module.css';
 
 function HomeImage() {
     return (
