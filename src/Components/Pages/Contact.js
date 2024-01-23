@@ -18,7 +18,6 @@ export const Contact = () => {
     };
 
     return (
-
         <div className={styles.formContact}>
             <h2 className={styles.formTitle}>
                 Entre em Contato <PiArrowSquareDownFill/> </h2>
@@ -35,4 +34,4 @@ export const Contact = () => {
     );
 };
 
-export default Contact
+export default Contact;

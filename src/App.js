@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
@@ -16,15 +15,13 @@ function App() {
   return (
     <Router>
       <div className='Container'>
-        
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/Resume" element={<Resume />} />
-            <Route exact path="/Contato" element={<Contact />} />
-            <Route exact path="/Projetos" element={<MyProjects />} />
-            <Route exact path="/Sobre" element={<About />} />
-          </Routes>
-      
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Resume" element={<Resume />} />
+          <Route exact path="/Contato" element={<Contact />} />
+          <Route exact path="/Projetos" element={<MyProjects />} />
+          <Route exact path="/Sobre" element={<About />} />
+        </Routes>
 
         <div className='right'>
           <Link to="/"> <span> Home  </span><IoHome /> </Link>

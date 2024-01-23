@@ -81,7 +81,6 @@ function Home() {
         </ul>
         <HomeImage/>
       </div>
-
     </div>
   );
 }

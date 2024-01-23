@@ -10,7 +10,6 @@ function CurrentStudying() {
         <h2> Tecnologias que tenho interesse, <br />
           ou estou estudando no momento:
         </h2>
-
       </div>
       <div className={styles.iconsArea}>
         <div className={styles.icon}><SiJavascript size="4rem" /></div>

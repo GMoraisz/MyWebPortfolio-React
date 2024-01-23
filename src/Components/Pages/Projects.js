@@ -9,7 +9,7 @@ import todoList from './images/toDoList.png';
 import Calculator from './images/Calculator.jpg';
 import Chronometer from './images/Chronometer.jpg';
 import VotingPage from './images/VotingPage.png';
-import Portfol from './images/Portfol.png'
+import Portfol from './images/Portfol.png';
 
 const MyProjects = () => {
   const projects = [
@@ -47,6 +47,6 @@ const MyProjects = () => {
       </div>
     </div>
   );
-}
+};
 
 export default MyProjects;
