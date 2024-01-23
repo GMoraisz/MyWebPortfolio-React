@@ -14,5 +14,13 @@
 @media (max-width: 900px) {
     .imageContainer {
         margin-top: 2rem; 
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .imageContainer img {
+        
+        width: 95%;
     }
 }

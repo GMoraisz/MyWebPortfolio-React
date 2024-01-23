@@ -94,3 +94,9 @@ strong {
 
 }
 
+@media (max-width: 600px) {
+  .right a svg {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+}

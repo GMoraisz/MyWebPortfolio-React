@@ -56,20 +56,24 @@
 
 @media (max-width: 768px) {
   .iconsArea {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .itensArea {
     padding: 1.5rem; 
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 480px) {
   .iconsArea {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .itensArea {
     padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
   }
 }

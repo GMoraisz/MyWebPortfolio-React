@@ -65,6 +65,7 @@ html {
 @media (min-width: 768px) {
   .content {
      grid-template-columns: 1fr 1fr 1fr;
+     width: 95%;
   }
 
   .carouselContainer {
@@ -97,3 +98,16 @@ html {
    height: 500px; 
  }
 } 
+
+@media (max-width: 600px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    
+  }
+
+}
