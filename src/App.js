@@ -6,11 +6,11 @@ import { AiFillInfoCircle, AiFillFilePdf } from 'react-icons/ai';
 import { FaCommentDots } from 'react-icons/fa';
 
 import './App.css';
-import About from './Components/Pages/About';
-import Home from './Components/Pages/Home';
-import Resume from './Components/Pages/Resume';
-import Contact from './Components/Pages/Contact';
-import MyProjects from './Components/Pages/Projects';
+import About from './Components/Pages/About/About';
+import Home from './Components/Pages/Home/Home';
+import Resume from './Components/Pages/Resume/Resume';
+import Contact from './Components/Pages/Contact/Contact';
+import MyProjects from './Components/Pages/Projects/Projects';
 
 function App() {
   return (

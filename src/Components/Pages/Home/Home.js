@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaInstagram, FaLinkedin, FaDev } from 'react-icons/fa';
-import styles from './styles/Home.module.css';
-import Video from '../Layout/Video';
-import HomeImage from '../Layout/HomeImage';
+import styles from './Home.module.css';
+import Video from '../../Layout/Video';
+import HomeImage from '../../Layout/HomeImage';
 
 function Home() {
   const [text1, setText1] = useState('');

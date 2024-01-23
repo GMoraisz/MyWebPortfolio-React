@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import ChangeLanguage from '../Buttons/ChangeLanguage';
+import ChangeLanguage from '../../Buttons/ChangeLanguage';
 import resumepdfPT from './images/Carta de Apresentação-1.png';
 import coverLetterPT from './images/Meu Currículo-1.png';
 import resumepdfEN from './images/myResume-1.png';
 import coverLetterEN from './images/Cover Letter-1.png';
-import styles from './styles/Resume.module.css';
-import DownloadPDF from '../Buttons/DownloadPDF';
+import styles from './Resume.module.css';
+import DownloadPDF from '../../Buttons/DownloadPDF';
 
 const Resume = () => {
   const [currentLanguage, setCurrentLanguage] = useState('portuguese');

@@ -2,8 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { FaGithub } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './styles/Projects.module.css';
-import ProjectsTechnologys from '../Layout/ProjectsTechnologys';
+import styles from './Projects.module.css';
+import ProjectsTechnologys from '../../Layout/ProjectsTechnologys';
 
 import todoList from './images/toDoList.png';
 import Calculator from './images/Calculator.jpg';
