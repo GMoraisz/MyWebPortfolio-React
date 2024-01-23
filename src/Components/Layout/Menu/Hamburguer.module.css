@@ -71,32 +71,29 @@ body,
     display: flex;
     flex-direction: column;
     position: absolute;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 600;
-    top: -10.5px;
+    top: -15px;
     left: 7.1rem;
     cursor: pointer;
     color: var(--cor-quintenaria);
     background-color: var(--cor-secundaria);
     border-radius: 8px;
-    text-shadow: 1.1px 1.1px 1.1px #000000;
+    text-shadow: 1.25px 1.4px 1.4px #000000;
     border: 1.8px solid var(--cor-terciaria);
      
 
 }
 
-.list:hover {
-    color: var(--cor-terciaria);
-}
+
 
 .list .listItems {
-    padding: 0.5rem;
+    padding: 0.75rem;
     list-style: none;
 }
 
 .menuOpen {
-    width: 180px;
-    height: auto;
+    width: 175px;
     box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 2.5rem;
