@@ -20,7 +20,7 @@
 
 @media (max-width: 600px) {
     .imageContainer img {
-        
         width: 95%;
+      margin-left: 1.5rem;
     }
 }
