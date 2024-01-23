@@ -56,3 +56,24 @@ html {
   
   }
 }
+
+
+@media (max-width: 1024px) {
+  .rightButtonContainer {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .resumeContainer {
+    margin-left: 1.5rem; 
+
+  }
+
+  .embedContainer {
+    width: 100%;
+  
+  }
+}

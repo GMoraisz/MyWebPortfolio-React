@@ -83,6 +83,7 @@ body {
 @media (max-width: 600px) {
 
   .title {
+    
     margin-top: 5rem;
   }
   .content p {

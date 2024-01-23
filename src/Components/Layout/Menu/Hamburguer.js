@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from './Hamburguer.module.css';
 
 function Hamburguer() {
     const [active, setMode] = useState(false);
+    const navigate = useNavigate();
 
     const toggleMode = () => {
         setMode(!active);
+    }
+
+    const navigateTo = (path) => {
+        navigate(path);
+        toggleMode(); 
     }
 
     return (
@@ -17,11 +23,11 @@ function Hamburguer() {
             <div className={active ? styles.menuOpen : styles.menuClose}>
                 <div className={styles.list}>
                     <ul className={styles.listItems}>
-                        <li><Link to="/"><span>Home</span></Link></li>
-                        <li><Link to="/Projects"><span>Projects</span></Link></li>
-                        <li><Link to="/About"><span>About</span></Link></li>
-                        <li><Link to="/Resume"><span>Resume</span></Link></li>
-                        <li><Link to="/Contact"><span>Contact</span></Link></li>
+                        <li onClick={() => navigateTo("/")}><span>Home</span></li>
+                        <li onClick={() => navigateTo("/Projetos")}><span>Projetos</span></li>
+                        <li onClick={() => navigateTo("/Sobre")}><span>Sobre</span></li>
+                        <li onClick={() => navigateTo("/Resume")}><span>Currículo</span></li>
+                        <li onClick={() => navigateTo("/Contato")}><span>Contato</span></li>
                     </ul>
                 </div>
             </div>
