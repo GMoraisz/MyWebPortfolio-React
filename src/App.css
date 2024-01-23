@@ -84,7 +84,7 @@ strong {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   
   .right a { 
     
@@ -124,9 +124,5 @@ strong {
     display: flex;
    
   
-  }
-
-  .footer {
-   width: 90%;
   }
 }
