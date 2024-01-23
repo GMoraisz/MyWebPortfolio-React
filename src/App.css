@@ -119,7 +119,6 @@ strong {
   .deviceMenu
   {
     position: relative;
-    margin-right: 2rem;
     z-index: 1000;
     display: flex;
    

@@ -18,7 +18,7 @@ html {
   }
   
   .card {
-    width: 90%;
+    width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border-radius: 15px;
@@ -78,20 +78,18 @@ html {
 
 
   @media (max-width: 768px) {
-    .profileArea {
-      width: 90%;
-      padding: 0;
-      box-sizing: border-box;
-      
+
+
+    .card {
+      width: 95%;
+      margin-left: 0.80rem;
     }
   
   }
   @media (max-width: 900px) {
     .profileArea {
       width: 95%;
-      margin-top: 2.5rem;
-      margin-left: 1rem;
-      margin-right: auto;
+      margin-top: 3.5rem;
       padding: 0;
       box-sizing: border-box;
       
