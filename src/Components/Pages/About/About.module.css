@@ -128,7 +128,8 @@ html {
 
   @media (max-width: 600px) {
     .profileArea {
-      margin-left: 0;
+      width: 90%;
+      margin-left: 1.25rem;
       margin-right: 0;
       margin-top: 3.5rem;
       padding-left: 0;

@@ -46,7 +46,7 @@ function Home() {
   return (
     <div className={styles.homeContainer}>
       <div className={styles.title}>
-        <h1> Morais <FaDev /></h1>
+        <h1> <strong >Morais </strong> <FaDev /></h1>
       </div>
       <Video/>
 

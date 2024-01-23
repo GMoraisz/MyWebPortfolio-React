@@ -5,54 +5,54 @@ html {
 .resumeContainer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3.5rem;
+  margin-top: 5rem;
   justify-content: center;
   margin-left: 5rem;
 }
 
 .embedContainer {
-  width: 48%;
+  width: 35%;
   margin-bottom: 20px;
   justify-content: center;
 }
 
 .embedContainer img {
-  width: 90%;
-  height: 625px;
-  border: 1px solid var(--cor-terciaria);
-}
-
-.imageWithButtons {
-  position: relative;
+  width: 95%;
+  height: auto;
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 15px;
 }
 
 .rightButtonContainer {
   display: flex;
   flex-direction: column;
-  margin-top: 1px; 
+  margin-top: 1px;
+  position: absolute;
+  top: 5rem;
+  left: 7.5rem;
 }
-
 
 .rightButtonContainer button {
   margin-top: 10px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 @media (max-width: 767px) {
   .rightButtonContainer {
+    position: relative;
+    top: auto;
+    left: auto;
     margin-top: 10px;
     text-align: center;
   }
 
-  .embedContainer {
-    margin-top: 1.2rem;
-    width: 100%;
-  }
-}
+  .resumeContainer {
+    margin-left: 1.5rem; 
 
-@media (min-width: 768px) and (max-width: 1023px) {
+  }
+
   .embedContainer {
     width: 100%;
+  
   }
 }
-

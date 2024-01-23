@@ -49,4 +49,13 @@ html {
 
   
 
+  @media (max-width: 600px) {
+    .formContact {
+      width: 95%;
+      margin-left: 0.66rem;
+      
+      box-sizing: border-box;
+      
+    }
   
+  }
