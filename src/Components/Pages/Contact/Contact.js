@@ -5,7 +5,6 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const form = useRef(); 
-    
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -32,6 +31,9 @@ const Contact = () => {
                 setName('');
                 setEmail('');
                 setMessage('');
+
+                
+                window.alert('Mensagem enviada com sucesso!');
             })
             .catch((error) => {
                 console.error('Erro ao enviar o e-mail:', error);
@@ -45,15 +47,15 @@ const Contact = () => {
             </h2>
             <form ref={form} onSubmit={handleSubmit}> 
                 <label>Nome: </label>
-                <input type="text" name="name" />
+                <input type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} />
                 <label>E-mail: </label>
-                <input type="email" name="email" />
+                <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                 <label>Mensagem: </label>
-                <textarea name="message" />
+                <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)} />
                 <input type="submit" value="Enviar" />
             </form>
         </div>
     );
 };
 
-export default Contact; 
+export default Contact;

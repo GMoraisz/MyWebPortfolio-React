@@ -41,6 +41,7 @@ function Home() {
       }
     }, 100);
   }, []);
+  document.body.style.overflow = 'hidden';
 
   return (
     <div className={styles.homeContainer}>
