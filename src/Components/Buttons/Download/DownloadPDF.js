@@ -2,7 +2,7 @@ import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './styles/DownloadPDF.module.css';
+import styles from './DownloadPDF.module.css';
 import resumePTBR from './assets/Resume-CoverLetter-PTBR.pdf';
 import resumeENG from './assets/Resume-CoverLetter-Eng.pdf';
 import { BiSolidFilePdf } from 'react-icons/bi';

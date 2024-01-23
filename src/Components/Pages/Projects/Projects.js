@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import { FaGithub } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './Projects.module.css';
-import ProjectsTechnologys from '../../Layout/ProjectsTechnologys';
+import ProjectsTechnologys from '../../Layout/Technologys/ProjectsTechnologys';
 
 import todoList from './images/toDoList.png';
 import Calculator from './images/Calculator.jpg';

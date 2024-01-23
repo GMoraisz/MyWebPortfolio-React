@@ -1,6 +1,6 @@
 import React from 'react';
-import pikachuVideo from './images/PikachuDance.mp4';
-import styles from './styles/Video.module.css';
+import pikachuVideo from './PikachuDance.mp4';
+import styles from './Video.module.css';
 
 function Video() {
   return (

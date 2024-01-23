@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import styles from './About.module.css';
 import imgBack from './images/Pikachuwalp.png';
 import imgPerf from './images/euPerfil.jpeg';
-import SeeMore from '../../Buttons/SeeMore';
-import CurrentStudying from '../../Layout/CurrentStudying';
+import SeeMore from '../../Buttons/SeeMore/SeeMore';
+import CurrentStudying from '../../Layout/Studying/CurrentStudying';
 
 const About = () => {
   const [showMore, setShowMore] = useState(false);
