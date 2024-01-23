@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { IoHome } from 'react-icons/io5';
+import { BiSolidRocket } from 'react-icons/bi';
+import { AiFillInfoCircle, AiFillFilePdf } from 'react-icons/ai';
+import { FaCommentDots } from 'react-icons/fa';
+
 import './App.css';
 import About from './Components/Pages/About';
 import Home from './Components/Pages/Home';
 import Resume from './Components/Pages/Resume';
 import Contact from './Components/Pages/Contact';
-import { IoHome } from 'react-icons/io5';
-import { BiSolidRocket } from 'react-icons/bi';
-import { AiFillInfoCircle, AiFillFilePdf } from 'react-icons/ai';
-import { FaCommentDots } from 'react-icons/fa';
 import MyProjects from './Components/Pages/Projects';
 
 function App() {
